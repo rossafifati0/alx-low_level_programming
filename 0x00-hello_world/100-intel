@@ -11,4 +11,3 @@ output_file="${c_file%.c}.s"
 
 # Move the generated assembly code to the output file
 mv "${c_file%.c}.s" "$output_file"
-
